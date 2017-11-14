@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  h3 You have successfully connected your Nest account to AppDirect.
+  p The following devices are connected to your Nest account:
+  div.container
+    a.media-heading(
+      target='_blank',
+      href='https://home.nest.com/thermostat/#{nestSerial}',
+    )
+      div.row
+        div.well
+          div.media
+            dif.media-left.media-middle
+              img.media-object(
+                src='/images/WWN-Therm-Badge_Gray_RGB_48x48_1-5x_cel.png',
+                alt='thermostat',
+              )
+            div.media-body
+              div.media-heading
+                h4 Thermostat
+                p Hallway

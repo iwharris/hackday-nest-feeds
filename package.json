@@ -1,0 +1,34 @@
+{
+  "name": "hackday-nest-feed",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./src/www",
+    "dev": "nodemon ./src/www -x babel-node -e js"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "config": "^1.28.1",
+    "debug": "~2.6.9",
+    "deep-object-diff": "^1.0.4",
+    "errorhandler": "^1.5.0",
+    "eventsource": "^1.0.5",
+    "express": "~4.15.5",
+    "jade": "^1.11.0",
+    "morgan": "~1.9.0",
+    "object-path": "^0.11.4",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "serve-favicon": "^2.4.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "nodemon": "^1.12.1"
+  }
+}
